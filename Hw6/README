@@ -1,0 +1,5 @@
+Alex Ong 1.06
+
+   Converted C files to C++ syntax. Loaded the data base and parsed the CSV files inside it and then printed its contents 
+to the console. The parsed cvs files are stored in a vector for access later on. Mulltiple csv files can be parsed by typing
+in the csv file name into the command line.

@@ -1,0 +1,5 @@
+Alex Ong 1.07
+
+   When walking through tall grass, the game will now have a 10% chance of spawning and encountering a Pokemon from our database. 
+The game randomly generates a Pokemon, parses and stores its stats (hp, attack, defense, etc), and its moveset.
+Added a placeholder Pokemon Encounter screen to display all the Pokemon info

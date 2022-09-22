@@ -1,0 +1,5 @@
+Alex Ong
+
+    Generated the game trainers on the map: hikers, rivals, wanderers, pacers, random walkers, and stationaries. Game uses the 
+  flag "--numtrainers" to allow the user to generate as many trainers as they want. Implemented the logic to make all NPCs
+  move according to the document specifications. 

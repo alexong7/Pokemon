@@ -1,0 +1,5 @@
+Alex Ong 1.05
+
+    Created the user interface and unbuffered input to move the PC. Added features to enter Marts / Centers, display a list of trainers,
+and started battles if NPC and PC ran into each other. The only element that I wasn't able to complete was the scrolling feature of the 
+trainer list. For now I have just have the full list of trainers printed. 

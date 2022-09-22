@@ -1,0 +1,41 @@
+Jan 29: Began work on the terrain generator class. Started declaring structs and enums that 		will be useful
+
+Jan 31:	Began work on printing the border of the map (filled with rocks). Filled in the
+    	      rest with clearings (periods) in order to test
+
+Feb 1: Finished rest of project. Connected all paths, spawned in Poke Center and Poke Marts
+        reachable from the paths. Spawned in regions of tall grass, trees, and boulders.
+
+Feb 7:
+      Started work on the world generator, made a 399x399 2D array containing Pointers to a
+   map struct type (I like to think of it as an array of Map objects -- like how it would
+   be in Java).
+      Set every cell in the World array to null besides the starting map at 199, 199.
+   Started work on a while loop for the 6 commands (NESW moves, Fly, Quit).
+
+Feb 8:
+      Finished the loop to move from map to map with the commands. Printed the current
+   coordinates (X Y) and checked for any moves that would make the user fall off the world.
+   Made sure new maps would match exits of the previous. Deallocated all memory once
+   loop was finished.
+
+Feb 9:
+      Added equation to have buildings spawn the further away from the center map. Maps on
+   the edge of the world will not generate exits.
+
+HW 1.03
+-----
+Feb 14:
+		Began researching Dijkstra's algorithm
+
+Feb 15:
+		Started work on the Dijkstra's algorithm in the program. Added structs for player,
+	distanceMap, and distanceMap cells. I also made an enum for NPC tags to differentiate
+	between characters like rival and hikers.
+
+Feb 17:
+		Continued work on Dijkstra's algorithm. Added a function for pathCost that uses a
+	switch to determine the path cost depending on the type of NPC.
+
+Feb 22:
+	Finished Dijkstra's algorithm and printed the two distance maps for Rival and Hiker.

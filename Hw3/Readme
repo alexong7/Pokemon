@@ -1,0 +1,7 @@
+Alex Ong
+
+  This assignment adds the Dijkstra algorthm for finding shortest path to every
+cell on the map. There is a randomly spawned player character on the road
+that acts as the source node. There are two types of NPCs, Rivals and Hikers that
+have different weights when moving through terrain types.
+  Used instructor's fib heap for priority queue implementation.
