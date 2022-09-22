@@ -1,0 +1,8 @@
+Alex Ong 1.08
+
+   Spawned in Pokemon for PC and trainers. Implemented Trainer battles and Wild Pokemon encounters. Almost all the features of 
+1.08 are implemented besides calculating Missed moves and Fleeing battle odds. Inventories have been added to hold revive/healing 
+poitions for now. Wild Pokemon can be captured and added to the PC's pokedex (up to 6) once the Wild Pokemon has been defeated!
+
+Not all starting pokemon the PC chooses will have available moves, so restart the game to test out any battle mechanics with the PC's 
+pokemon!! 
